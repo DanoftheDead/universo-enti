@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Tienda </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body{
+  background-color: #0080FF;
+}
+#actu{
+    width: 190px;
+    height: 450px;
+    background-color: red;
+    text-align: center;
+
+    position: absolute;
+    top: 100px;
+    right: 90px;
+ }
+ #tabla_materiales{
+   width: 440px;
+   height: 230px;
+   background-color: green;
+   color: black;
+
+   position: absolute;
+   top: 100px;
+   left: 60px; 
+ }
+ #tabla_runas{
+   width: 440px;
+   height: 230px;
+   background-color: green;
+   color: black;
+
+   position: absolute;
+   top: 450px;
+   left: 60px; 
+ }
+ table, td{
+    border: 3px #70b8ff solid;
+ }
+</style>
+
+</head>
+<body>
+    <div id="menu_pagina" class="blank" >
+       
+
+    <a href="Quests.html">
+        <div id="menu3" class="menu_buttons">
+        Quest
+        </div>
+    </a>
+
+    <a href="Tienda.html">
+        <div id="menu3" class="menu_buttons">
+        Tienda
+        </div>
+    </a>
+
+
+    <a href="Perfil.html">
+        <div id="menu2" class="menu_buttons">
+        Perfil
+        </div>
+    </a>
+    
+    <a href="Title.html">
+        <div id="menu1" class="menu_buttons">
+        Clanes
+        </div>
+    </a>
+
+    </div>
+
+    <div class="contenedor_informacion">
+        <div id="actu">
+            Actualizaciones/Ultimas noticias
+        </div>
+        <div id="tabla_materiales">
+            <table>
+          <thead>
+                 <th>
+                 Materiales
+                 </th>
+          </thead>
+          <tbody>
+                 <tr>
+                     <td>Materiales</td>
+                     <td>Coste</td>
+                     <td>Creacion</td>
+                 </tr>
+                 <tr>
+                     <td>Pluma</td>
+                     <td>150 Col</td>
+                     <td>Grimorio</td>
+                 </tr>
+                   <tr>
+                     <td>Hojas</td>
+                     <td>100Col</td>
+                     <td>Grimorio</td>
+                 </tr>
+                   <tr>
+                     <td>Tinta</td>
+                     <td>115 Col</td>
+                     <td>Grimorio</td>
+                 </tr>
+                   <tr>
+                     <td>Cuero</td>
+                     <td>100 Col</td>
+                     <td>Grimorio</td>
+                 </tr>
+          </tbody>
+          </table>
+        </div>
+        <div id="tabla_runas">
+            <table>
+          <thead>
+                 <th>
+                 Runas
+                 </th>
+          </thead>
+          <tbody>
+                 <tr>
+                     <td>Nombre</td>
+                     <td>Beneficio</td>
+                     <td>Coste</td>
+                 </tr>
+                 <tr>
+                     <td>bendicion al recolector</td>
+                     <td>Aumenta hasta un 40% el Col obtenido en Quest por 5 dias</td>
+                     <td>700 Col</td>
+                 </tr>
+          </tbody>
+          </table>
+        </div>
+    </div>
+</body>
+</html>
