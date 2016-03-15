@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> perfil </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body{
+    background-color: #0080FF;
+}
+#foto{
+    width: 160px;
+    height: 160px;
+    background-image: url('https://animeanemoscope.files.wordpress.com/2013/08/nekomonogatari-black-04.jpg');
+    background-size: 160px 160px;
+
+    position: absolute;
+    top: 60px;
+    right: 690px;
+ }
+ #nombre{
+    width: 280px;
+    height: 150px;
+    background-color: green;
+    text-align: center;
+
+    position: absolute;
+    top: 60px;
+    left: 280px;
+ }
+ #titulo_actividades{
+    width: 400px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 280px;
+    left: 170px;
+ }
+ #actividades{
+    width: 300px;
+    height: 200px;
+    background-color:#BDBDBD;
+
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+ }
+  #actu{
+    width: 190px;
+    height: 450px;
+    background-color: red;
+    text-align: center;
+
+    position: absolute;
+    top: 100px;
+    right: 90px;
+ }
+ #quejas{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    text-align: center;
+
+    position: absolute;
+    bottom: 180px;
+    right: 340px;
+ }
+</style>
+
+</head>
+<body>
+    <div id="menu_pagina" class="blank" >
+     
+
+    <a href="Quests.html">
+        <div id="menu3" class="menu_buttons">
+        Quest
+        </div>
+    </a>
+
+    <a href="Tienda.html">
+        <div id="menu3" class="menu_buttons">
+        Tienda
+        </div>
+    </a>
+
+
+    <a href="Perfil.html">
+        <div id="menu2" class="menu_buttons">
+        Perfil
+        </div>
+    </a>
+    
+    <a href="Title.html">
+        <div id="menu1" class="menu_buttons">
+        Clanes
+        </div>
+    </a>
+
+    </div>
+
+    <div class="contenedor_informacion">
+        <div id="foto">
+        </div>
+        <div id="nombre" class="texto_blanco">
+            <h2>Breton Martinez Julio</h2>
+            <h2>Clan Developers</h2>
+            <h2>Odia a los Campers</h2>
+            <h2>Programador</h2>
+        </div>
+        <div id="titulo_actividades">
+            Actividades
+        </div>
+        <div id="actividades">
+            djkvhcyrvluidfvg.jklvh
+            <br>
+            sjagxcrhef
+        </div>
+        <div id="actu">
+            Actualizaciones/Ultimas noticias
+        </div>
+        <div id="quejas">
+            quejas
+        </div>
+    </div>
+</body>
+</html>
