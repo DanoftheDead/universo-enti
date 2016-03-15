@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Menu </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body{
+	background-color: #0080FF;
+}
+.texto{
+ 	padding-top: 50px;
+ 	font-family: cursive;
+ 	font-size: 10px;
+ 	color: black;
+ }
+</style>
+
+</head>
+<body>
+	<div id="menu_pagina" class="blank" >
+		
+
+    <a href="Quests.html">
+        <div id="menu3" class="menu_buttons">
+    	Quests
+        </div>
+    </a>
+
+	<a href="Tienda.html">
+        <div id="menu3" class="menu_buttons">
+    	Tienda
+        </div>
+    </a>
+
+
+	<a href="Perfil.html">
+	    <div id="menu2" class="menu_buttons">
+		Perfil
+	    </div>
+	</a>
+
+    <a href="Title.html">
+		<div id="menu1" class="menu_buttons">
+		Clanes
+	    </div>
+	</a>
+
+	</div>
+
+	<div class="contenedor_informacion">
+		<div id="devel" class=".texto">
+			<center>
+		Developers
+	</center>
+		</div>
+		<div id="gamer" class=".texto">
+			<center>
+		Gamers
+	</center>
+		</div>
+		<div id="arte" class=".texto">
+			<center>
+		Arts
+	</center>
+		</div>
+	</div>
+</body>
+</html>
